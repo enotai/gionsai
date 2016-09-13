@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+/*共通なのか、を明確にしましょう*/
+
+/*html, body, main, header, nav, aside, section, article, footer, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video*/
+
+body {
+	line-height: 1.7em;	/*全般の行間*/
+	color: #444;		/*全般の文字色*/
+	background-color:#FAFCF7;
+	font-family:"Lucida Grande","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN",sans-serif;
+	background-image: url("../img/background.svg");
+}
+
+/*↓セクション↓*/
+
+main,header,footer,li img{
+	margin:0 auto;
+	/*clear: left;*/
+	width: 800px;
+	/*min-width: 800px;*/
+	padding: 10px 0 20px 0;
+	text-align: left;
+	background-color:#FAFCF7;
+}
+
+main{
+	margin-top:10px;
+}
+
+section{
+	background-color:#FAFCF7;
+}
+
+#caution,#pamphlet,#news,#twitter {
+	margin-bottom:20px;
+	/*background:url(../img/background.png) no-repeat fixed center top;
+	border-width:10px;//枠線
+	border-style:solid;*/
+}
+
+#garelly,#date {
+	clear:both;
+}
+
+
+#caution,#pamphlet {
+	float: left;
+	width: 600px;
+}
+
+#news,#twitter {
+	float: right;
+	width: 200px;
+}
+
+footer {
+	clear: both;
+	/*width: 100%;*/
+	text-align: center;
+	padding-bottom:20px;
+}
+
+
+/*↑セクション↑*/
+
+/*↓見出し↓*/
+
+h2 {
+	text-decoration:none;
+	padding:20px 0 0;
+	font-size:16px;
+	color:#AF8870;
+}
+
+/*↑見出し↑*/
+
+/*↓リスト↓*/
+
+ul {
+	list-style-type: none;
+}
+
+ol li {
+	padding:10px 0px;
+	margin:0px 20px;
+}
+
+ul {
+	
+	/*background-color:#D8F85E; //navigationMenu
+	border-left: 1px solid #820606;
+	position:fixed; //固定
+	overflow: hidden;*/
+	
+	
+}
+
+#news dl{
+	height:300px;
+	overflow:scroll;
+	border:solid 1px;
+	/*float:right;//まわりこみ解除したい*/
+}
+
+#news dt {
+	font-weight:bold;
+	padding:10px 0px 5px;
+}
+
+#news dd {
+	padding-left:10px;
+}
+
+dd:before {
+	content:"・";
+}
+
+/*↑リスト↑*/
+
+/*↓ナビゲーションバー↓*/
+
+nav ul{
+	width:800px;
+	border-left: 1px solid #820606;
+	padding:0;
+	margin:0 auto;
+	list-style-type:none;
+	display:block;
+	/*border-left: 1px solid #820606;*/
+	z-index: 999;
+}
+
+
+nav li {
+	width:calc(100%/6);
+	float:left;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+	height: 50px;
+	line-height: 30px;
+	/*float:left;*/
+
+}
+
+nav li a {
+	width:auto;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 0;
+	text-decoration:none;
+	display:block;
+	background:#666;
+	
+	border-right: 1px solid #820606;
+}
+
+nav li a:hover{
+	background-color:#555;
+}
+
+/*↑ナビゲーションバー↑*/
+
+.fixed {
+	position: fixed;
+	margin:0 auto;
+	top: 0;
+	box-shadow: 0 0 8px 4px #b0b0b0;
+}
+
+header img{
+	width:720px;
+	padding-left:40px;
+}
+
+#DBconnect{
+	clear:left;
+	margin:0 auto;
+}
+
+.text,address{
+	line-height:1.5em;
+	white-space:pre-wrap;
+	margin-left:30px;
+}
+
+#date {/*ばしょどうにか*/
+	text-align:center;
+	padding:30px 0;
+	font-size:150%;
+	」color:#820606;
+}
+
+.bxslider{
+	z-index:800;
+}

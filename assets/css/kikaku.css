@@ -1,0 +1,42 @@
+tr.kikaku{
+/*cursor:pointer;*/
+width:800px;
+}
+.image{
+/*background:url(images/loading.gif) 50% 50% no-repeat;*/
+}
+td{
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+}
+td a{
+color:#000000;
+}
+td.imgsrc{
+width:300px;
+}
+
+table{
+margin:auto;
+width:800px;
+}
+
+tr.tableNav{
+text-align:left;
+width:800px;
+background-color: #bcffff
+}
+
+td{
+font-size:90%;
+}
+
+.number{
+text-align:center;
+}
+
+h3{
+padding: 20px 0;
+}

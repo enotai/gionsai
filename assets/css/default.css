@@ -1,0 +1,25 @@
+/* line 3, ../sass/default.scss */
+.no_link_style a {
+  color: #0000EE;
+  text-decoration: none;
+}
+/* line 6, ../sass/default.scss */
+.no_link_style a:visited {
+  color: #0000EE;
+  text-decoration: none;
+}
+/* line 10, ../sass/default.scss */
+.no_link_style a:hover {
+  color: #0000EE;
+  text-decoration: none;
+}
+/* line 14, ../sass/default.scss */
+.no_link_style a:link {
+  color: #0000EE;
+  text-decoration: none;
+}
+/* line 18, ../sass/default.scss */
+.no_link_style a:active {
+  color: #0000EE;
+  text-decoration: none;
+}
